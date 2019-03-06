@@ -15,7 +15,7 @@
  */
 
 function question1() {
-	$("replaceMe").css("replaceMe", "replaceMe");
+	$("body").css("color", "blue");
 }
 
 $("#button1").on('click', question1);
@@ -26,11 +26,11 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-	// function question2(){
-	// 	$("replaceMe").replaceMe("replaceMe");
-	// }
+	 function question2(){
+	 	$("h2").text("Munera");
+	 }
 
-	// $("#button1").on('click', question2);
+	 $("#button1").on('click', question2);
 
 /**
  * Question 3:
@@ -39,11 +39,11 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-	// function question3(){
-	// 	$("replaceMe").html("replaceMe");
-	// }
+	function question3(){
+	 	$(".falseFact").html("true facts");
+	}
 
-	// $("#button1").on('click', question3);
+	 $("#button1").on('click', question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
